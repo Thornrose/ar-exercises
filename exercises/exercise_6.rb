@@ -30,3 +30,6 @@ puts "----------"
 @store5.employees.create(first_name: "Doug", last_name: "Dougie", hourly_rate: 120)
 @store6.employees.create(first_name: "Veronica", last_name: "Soap", hourly_rate: 115)
 
+test_employee = Employee.create(first_name: "Veri", last_name: "Sop", hourly_rate: 115)
+puts test_employee.valid?
+
