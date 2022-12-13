@@ -16,5 +16,3 @@ puts "Store names: #{@store1.name}, #{@store2.name}"
 @store1.name = "Langley"
 @store1.save
 puts "Updated store 1 name: #{@store1.name}"
-
-
